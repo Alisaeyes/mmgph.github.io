@@ -1,0 +1,48 @@
+@charset "utf-8";
+/*搜索 开始*/
+.list-sec{padding:0 0.3rem;}
+.search{margin-top: 0.3rem;width: 100%;background: url(../images/search/search-icon.png) 0.25rem center no-repeat;background-size:0.28rem 0.28rem;background-color: #eaebed;border-radius:0.25rem/50%;font-size: 0.28rem;color:#444;padding:0.33rem 0.3rem 0.26rem 0.65rem;height: 0.5rem;line-height: 0.5rem;}
+.search-title{margin-top: 0.35rem;font-size: 0.25rem;color:#999;padding-left: 0.33rem;background-size: 0.28rem 0.26rem;background-repeat: no-repeat;background-position: left center;}
+.search-title1{background-image: url(../images/search/history-icon.png);}
+.search-title2{background-image: url(../images/search/hot-search.png);}
+.search-item{margin-top: 0.1rem;}
+.search-item span{padding:0.05rem 0.1rem;border:1px solid #ddd;border-radius: 3px;color:#666;font-size:0.26rem;margin-left: 0.1rem;margin-top: 0.22rem;}
+.search-item span.search-select{background-color:#f4f4f4;}
+.split-line{height: 0px;border:none;border-top: 1px solid #ddd;margin-top: 0.5rem;}
+.scx{text-decoration:line-through;}
+/*搜索 结束*/
+/*搜索结果 开始*/
+.results-screen{line-height: 0.9rem;background-color: #fff;position: absolute;top:0.86rem;width: 100%;border-bottom: 1px solid #eee;z-index:999;}
+.results-screen li{float: left;width: 25%;color:#444;font-size: 0.28rem;text-align: center;}
+.results-screen li span{display: inline-block;width: 0.4rem;line-height: normal;vertical-align: middle;height: 0.8rem;overflow: hidden;margin-top: -0.05rem;}
+.up-arrow,.down-arrow{display: inline-block;width: 0.4rem;background-repeat: no-repeat;background-size:0.17rem 0.1rem;height: 0.4rem;}
+.up-arrow{background-image: url(../images/search/up-arrow.png);background-position: center 0.25rem;}
+.down-arrow{background-image: url(../images/search/down-arrow.png);background-position: center top;}
+.search-wrap{padding-top: 0.22rem;}
+.results-screen li.screen-select{color:#ff302e;}
+.serarch-wrap{margin-top: 1.76rem;}
+/*搜索结果结束*/
+
+/* 一周精选and热门推荐 start */
+.guess-like-list-item{position:relative;}
+.sale{left:0;top:0;padding:0.03rem 0.1rem;background:#FF565B;color:#fff;}
+.hot{background:#ff302e;}
+/* 一周精选and热门推荐 end */
+
+/* 折扣专区 start */
+.mt08{margin-top:0.08rem;}
+.guess-like-list-item .two-line span{font-size:0.25rem;border:1px dashed #ff302e;color:#ff302e;padding:0rem 0.1rem;margin-right:0.1rem;}
+.mt08 .scx{padding-left:0.1rem;}
+/* 折扣专区 end */
+
+/* 团购热卖 start */
+.tgrm-btn-wrap{margin-top:0.1rem;}
+.tgrm-btn-wrap a{font-size:0.25rem;background:#ff3334;padding:0.06rem 0.1rem;color:#fff;right:0.1rem;top:-0.07rem;}
+/* 团购热卖 end */
+
+/* 限时抢购 start */
+.results-screen-wrap{top:0.86rem;left:0;right:0;height: 1rem;line-height:1rem;background:#fff;border-bottom:1px solid #ddd;z-index:9999999;text-align:center;color:#333;}
+.start-time{font-size:0.4rem;color:#ff3334;font-weight:bold;}
+.end-time{font-size:0.22rem;display:inline-block;vertical-align:middle;margin-top:-0.06rem;font-weight:bold;margin-left:0.2rem;}
+.end-time span{padding:0.03rem 0.1rem;background:#333;color:#fff;line-height: normal;}
+/* 限时抢购 end */

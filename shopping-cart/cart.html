@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=0, user-scalable=no"/>
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="format-detection" content="telephone=no">
+	<meta name="x5-orientation" content="portrait"/>
+	<meta name="screen-orientation" content="portrait"/>
+	<title>购物车</title>
+	<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/main.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/index.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/details.css">
+	<link rel="stylesheet" type="text/css" href="../css/shopping-cart.css"/>
+	<script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="../js/rem.js"></script>
+	<script type="text/javascript" src="../js/swiper-3.3.1.jquery.min.js"></script>
+</head>
+<body class="bg1">
+	<!-- top start -->
+	<header class="header psa">
+		<div class="header-wrap psr">
+			<div class="header-left psa">
+				<span class="header-return" onclick="history.go(-1)"><i></i>返回</span>	
+				<span class="header-close">关闭</span>
+			</div>
+			购物车<span>(4)</span>
+			<div class="header-right psa">
+				<span class="header-more"></span>
+			</div>	
+		</div>
+	</header>
+	<!-- top end -->
+	<section class="cart-sec-mgtb">
+		<ul class="cart-list bg2">
+			<div class="cart-title">
+				<input class="radio-decoration" type="checkbox" id="shop1-radio">
+				<label for="shop1-radio"></label>
+				<a class="shops-name" href="../shops/shop.html">
+					<span>
+						corade原创专营店
+					</span>
+				</a>
+				<b>编辑</b>
+			</div>
+			<li>
+			   	<div class="goods-checkbox fl">
+				   	<input class="radio-decoration" type="checkbox" id="shop1-radio1">
+					<label for="shop1-radio1"></label>
+			   	</div>
+			    <a href="../details/product-details.html">
+			    	<img src="../images/shopping-cart/cart-goods1.jpg">
+			    </a>
+				<div class="edit-box fl">
+		    		<a href="../details/product-details.html">
+						<div class="goods-msg" >
+							<h2>corade 黑色棉衣</h2>
+							<span>颜色：黑色  尺码：S</span>
+							<p>
+								<b>15000</b>积分
+								<i>x1</i>
+							</p>
+						</div>
+					</a>
+					<div class="edit-msg clearfix">
+						<div class="num-control clearfix">
+							<span class="reduce fl on">-</span>
+							<span class="num fl">1</span>
+							<span class="plus fl">＋</span>
+						</div>
+						<p>颜色:白色;尺码:160/M</p>
+						<div class="edit-delete">
+							<button>删除</button>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li>
+			   <div class="goods-checkbox fl">
+				   	<input class="radio-decoration" type="checkbox" id="shop1-radio2">
+					<label for="shop1-radio2"></label>
+			   </div>
+			   <a href="../details/product-details.html">
+					<img src="../images/shopping-cart/cart-goods2.jpg">
+			   </a>
+			   <div class="edit-box fl">
+		    		<a href="../details/product-details.html">
+						<div class="goods-msg" >
+							<h2>corade 黑色棉衣</h2>
+							<span>颜色：黑色  尺码：S</span>
+							<p>
+								<b>15000</b>积分
+								<i>x1</i>
+							</p>
+						</div>
+					</a>
+					<div class="edit-msg clearfix">
+						<div class="num-control clearfix">
+							<span class="reduce fl on">-</span>
+							<span class="num fl">1</span>
+							<span class="plus fl">＋</span>
+						</div>
+						<p>颜色:白色;尺码:160/M</p>
+						<div class="edit-delete">
+							<button>删除</button>
+						</div>
+					</div>
+				</div>
+			</li>
+		</ul>
+		<ul class="cart-list cart-list-top bg2">
+			<div class="cart-title">
+				<input class="radio-decoration" type="checkbox" id="shop2-radio">
+				<label for="shop2-radio"></label>
+				<a class="shops-name" href="../shops/shop.html">
+					<span>
+						corade原创专营店
+					</span>
+				</a>
+				<b>编辑</b>
+			</div>
+			<li>
+			    <div class="goods-checkbox fl">
+				   	<input class="radio-decoration" type="checkbox" id="shop2-radio1">
+					<label for="shop2-radio1"></label>
+			    </div>
+			    <a href="../details/product-details.html">
+					<img src="../images/shopping-cart/cart-goods3.jpg">
+				</a>
+				<div class="edit-box fl">
+		    		<a href="../details/product-details.html">
+						<div class="goods-msg" >
+							<h2>corade 黑色棉衣</h2>
+							<span>颜色：黑色  尺码：S</span>
+							<p>
+								<b>15000</b>积分
+								<i>x1</i>
+							</p>
+						</div>
+					</a>
+					<div class="edit-msg clearfix">
+						<div class="num-control clearfix">
+							<span class="reduce fl on">-</span>
+							<span class="num fl">1</span>
+							<span class="plus fl">＋</span>
+						</div>
+						<p>颜色:白色;尺码:160/M</p>
+						<div class="edit-delete">
+							<button>删除</button>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li>
+			    <div class="goods-checkbox fl">
+				   	<input class="radio-decoration" type="checkbox" id="shop2-radio2">
+					<label for="shop2-radio2"></label>
+			    </div>
+			    <a href="../details/product-details.html">
+					<img src="../images/shopping-cart/cart-goods4.jpg">
+				</a>
+				<div class="edit-box fl">
+		    		<a href="../details/product-details.html">
+						<div class="goods-msg" >
+							<h2>corade 黑色棉衣</h2>
+							<span>颜色：黑色  尺码：S</span>
+							<p>
+								<b>15000</b>积分
+								<i>x1</i>
+							</p>
+						</div>
+					</a>
+					<div class="edit-msg clearfix">
+						<div class="num-control clearfix">
+							<span class="reduce fl on">-</span>
+							<span class="num fl">1</span>
+							<span class="plus fl">＋</span>
+						</div>
+						<p>颜色:白色;尺码:160/M</p>
+						<div class="edit-delete">
+							<button>删除</button>
+						</div>
+					</div>
+				</div>
+			</li>
+		</ul>
+		<div class="goods-total bg2 cart-total">
+			<input class="radio-decoration" type="checkbox" id="shops-radio"  name="shops-radio">
+			<label for="shops-radio"></label>
+			全选
+			<span>合计：<b>122000</b><i>积分</i></span>
+			<a class="settlement-btn" href="purchase-order.html">去结算(4)</a>
+		</div>
+	</section>
+	<!-- 选择尺码颜色弹窗 start -->
+	<div class="commodity-mask cart-mask psa">
+		<div class="commodity-details-select psa">
+			<div class="commodity-message clearfix">
+				<div class="commodity-img fl">
+					<a href="javascript:;">
+						<img src="../images/details/gmsm_img.jpg">
+					</a>
+				</div>
+				<div class="commodity-names fl">
+					<div class="commodity-money">
+						<span>15000</span>积分
+					</div>
+					<p class="commodity-des">
+						corade 著名商标印花T恤
+					</p>
+					<div class="commodity-tis">
+						请选择颜色、尺码
+					</div>
+				</div>
+			</div>
+			<div class="color-class">
+				<h5>颜色分类</h5>
+				<div class="color-list colors">
+					<span>黑色</span>
+					<span>白色</span>
+					<span>灰色</span>
+					<span>白色</span>
+					<span>灰色</span>
+					<span>白色</span>
+					<span>灰色</span>
+					<span>白色</span>
+					<span>灰色</span>
+					<span>白色</span>
+					<span>灰色</span>
+					<span>白色</span>
+					<span>灰色</span>
+				</div>
+			</div>
+			<div class="color-class">
+				<h5>尺码</h5>
+				<div class="color-list size-list">
+					<span>M</span>
+					<span>L</span>
+					<span>XL</span>
+					<span>XXL</span>
+				</div>
+			</div>
+			<div class="color-class">
+				<h5>购买数量</h5>
+				<div class="num-control clearfix">
+					<span class="reduce fl on">-</span>
+					<span class="num fl">1</span>
+					<span class="plus fl">＋</span>
+				</div>
+			</div>
+			<input class="determine-btn psa" type="button" name="" value="确定">
+			<i class="close-btn psa"></i>
+		</div>
+	</div>
+	<!-- 选择尺码颜色弹窗 end -->
+	<footer>
+		<div class="home-menu ul-list clearfix bg2">
+			<ul class="home-menu-list">
+				<li>
+					<a href="../index.html">
+						<div class="home-memu-icon home-icon"></div>
+						<p>首页</p>
+					</a>
+				</li>
+				<li>
+					<a href="../class/classification.html">
+						<div class="home-memu-icon classfiy-icon"></div>
+						<p>分类</p>
+					</a>
+				</li>
+				<li>
+					<a href="../indiana/indiana-list.html">
+						<div class="home-memu-icon indiana-icon"></div>
+						<p>一分夺宝</p>
+					</a>
+				</li>
+				<li class="home-select">
+					<a href="cart.html">
+						<div class="home-memu-icon cart-icon"></div>
+						<p>购物车</p>
+					</a>
+				</li>
+				<li>
+					<a href="../register-login/not-login.html">
+						<div class="home-memu-icon my-icon"></div>
+						<p>我的</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</footer>
+</body>
+<script type="text/javascript" src="../js/main.js"></script>
+<script type="text/javascript">
+	$(function(){
+		//购物车编辑
+		edit_cart(".cart-title>b",".goods-msg",".edit-msg");
+		// 编辑产品信息弹窗打开
+		$(".edit-msg>p").click(function(){
+	    	$(".commodity-mask").fadeIn(0,function() {
+	    		$(".commodity-details-select").css({
+		    		"transform":"translate3d(0,0,0)"
+		    	});
+	    	});
+	    	
+	    });
+	    // 编辑产品信息弹窗关闭
+	     $(".close-btn").click(function(){
+	    	$(".commodity-details-select").css({
+	    		"transform":"translate3d(0,100%,0)"
+	    	});
+	    	setTimeout(function(){
+	    		$(".commodity-mask").fadeOut(0);
+	    	},500);
+	    });
+	});
+</script>
+</html>

@@ -1,0 +1,10 @@
+@charset "utf-8";
+/*店铺 开始*/
+ul.shops-screen{position: relative;top: 0;border-bottom: none;}
+ul.shops-screen li{border-bottom: 2px solid #eee;}
+ul.shops-screen li.shops-select{color:#ff302e;border-color: #ff302e;}
+.shops-banner{width: 100%;height: 2rem;background: url(../images/shops/shops-banner.jpg) center center no-repeat;background-size: cover;text-align: center;padding-top: 0.3rem;}
+.shops-logo{width: 2.4rem;height: 1.0rem;background-color:#fff;line-height: 1.0rem;margin:0 auto;}
+.shops-logo img{max-height: 0.8rem;vertical-align: middle;max-width: 1.5rem;}
+.shops-banner p{font-size: 0.28rem;color:#fff;margin-top: 0.1rem;letter-spacing: 1px;}
+/*店铺结束*/

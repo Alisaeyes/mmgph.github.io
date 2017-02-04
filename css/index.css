@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* banner start */
+.swiper-container{height:4rem;overflow: hidden;}
+.swiper-slide a,.swiper-slide a img,.selling-brand-list-item a,.selling-brand-list-item a img,.guess-like-img img{display: block;width: 100%;height: 100%;}
+.swiper-pagination .swiper-pagination-bullet{background:#fff;opacity: 1;}
+.swiper-pagination .swiper-pagination-bullet-active{background:#e3101e;}
+.share-title,.share-list-item{text-align:center}
+.cff{color:#ff302e;}
+.c6{color:#666;}
+.scx{text-decoration:line-through;}
+
+.search-wrap{top:0.2rem;left:0;right:0;z-index:99999;}
+.search-wrap input{width: 7rem;height: 0.6rem;line-height:0.65rem;background:rgba(0,0,0,.5);display:block;margin:0 auto;padding:0 0.2rem;border-radius:0.5rem;font-size:0.26rem;color:#fff;}
+.search-icon{width: 0.34rem;height: 0.33rem;right:0.5rem;top:0.13rem;background:url(../images/search_icon.png) center center;background-size:100% 100%;}
+/* banner end */
+
+/* classList start */
+.class-wrap,.xsqg-wrap{background:#fff;}
+.class-list{padding:0.25rem 0;padding-top:0.55rem;}
+.class-list-item{float:left;width: 25%;margin-bottom:0.35rem;overflow:hidden;}
+.class-list-item a{display:block;font-size:0.3rem;text-align:center;width: 100%;}
+.class-list-item a img{width:1rem;height: 1rem;display:block;margin:0 auto;margin-bottom:0.1rem;}
+/* classList end */
+
+/* 限时抢购+团购热卖 start */
+.share-title{height: 0.7rem;line-height:0.78rem;font-size: 0.3rem;}
+.share-more{width: 0.43rem;height: 100%;background:url(../images/more_icon1.png) center center no-repeat;background-size: 0.43rem 0.23rem;top:0;right:0.44rem;}
+.share-banner{height: 3rem;}
+.share-banner img,.share-img img{width: 100%;height: 100%;}
+
+.share-wrap{overflow-x: auto;height: 3.5rem;}
+.share-list{margin:0.15rem;height: 3.5rem;overflow: hidden;margin-left:0.07rem;}
+.share-list-item{width: 2rem;float:left;font-size:0.3rem;margin-left:0.15rem;}
+.share-list-item .cff{padding-top:0.08rem;}
+.share-img{height: 2.3rem;}
+/* 限时抢购+团购热卖 end */
+
+/* 热门品牌 start */
+.selling-brand-list-item{float:left;width: 33.33%;height: 1.9rem;border-right:1px solid #e9ebe8;border-top:1px solid #e9ebe8;}
+.selling-brand-list-item:nth-child(3n){border-right:none;}
+/* 热门品牌 end */
+
+/* 猜你喜欢 start */
+.guess-like-title{height: 0.85rem;line-height:0.85rem;}
+.guess-like-list{margin:0 0.2rem;margin-left:0;}
+.guess-like-list-item{float:left;width: 47.2%;margin-left:0.2rem;margin-bottom:0.2rem;}
+.guess-like-img{height: 4.33rem;width: 100%;}
+.guess-like-list-item p{font-size:0.25rem;width: 90%;width:;height: 0.7rem;font-weight:bold;line-height:0.35rem;margin-top:0.2rem;}
+.guess-like-list-item span{font-size:0.2rem;color:#999;}
+.guess-like-list-item span b{font-size:0.3rem;color:#ff302e;}
+/* 猜你喜欢 end */
+

@@ -1,0 +1,58 @@
+@charset "utf-8";
+/*购物车 开始*/
+.cart-title{line-height: 0.8rem;padding:0 0.25rem;border-bottom: 1px solid #ddd;position: relative;}
+.shops-name{display: inline-block;padding-left: 0.5rem;background: url(../images/shopping-cart/shop-icon.png) left center no-repeat;background-size: 0.38rem 0.36rem;}
+.cart-title label{margin-right: 0.2rem;}
+.shops-name span{font-size: 0.28rem;padding-right: 0.3rem;background:url(../images/my/myright-arrow.png) right center no-repeat;background-size: 0.14rem 0.24rem;}
+.cart-title b{position: absolute;right: 0.25rem;font-size: 0.26rem;color:#333;}
+.cart-list{padding-bottom: 0.4rem;}
+.cart-list-top{margin-top: 0.4rem;}
+.cart-list  li{padding:0.25rem 0.25rem 0;position: relative;margin-top: 0.05rem;}
+.cart-list li:after{content:"";display: block;clear: both;height: 0;}
+.goods-checkbox{height: 1.6rem;line-height: 1.6rem;margin-right: 0.2rem;}
+.cart-list li img{width: 1.6rem;height: 1.6rem;border:1px solid #ddd;float: left;margin-right: 0.25rem;}
+.edit-box{width:65%;}
+.goods-msg h2{font-size: 0.26rem;}
+.goods-msg span{color:#999;font-size: 0.25rem; margin-top: 0.18rem;}
+.goods-msg p{font-size: 0.25rem;color:#999;position: relative;margin-top: 0.18rem;}
+.goods-msg p b{color:#e3241a;font-size: 0.28rem;margin-right: 0.1rem;}
+.goods-msg p i{font-size: 0.25rem;position: absolute;right: 0.2rem;color:#333;}
+.edit-msg{display: none;}
+.edit-msg p{color:#888;font-size: 0.26rem;padding-right: 0.5rem;background: url(../images/shopping-cart/edit-icon.png) right center no-repeat;background-size: 0.31rem 0.18rem;margin-top: 0.35rem;margin-right: 1.15rem;}
+.edit-msg .num-control{border:none;margin-top:0;display: block;}
+.edit-msg .num{padding:0 1.3rem 0 1.2rem;border:none;}
+.edit-msg .reduce{border-right: none;}
+.edit-delete{background-color:#e3241a;color:#fff;padding:0 0.2rem;position: absolute;right: 0;top:0rem;bottom:0rem;}
+.edit-delete button{vertical-align: 0;display:block;height: 100%;border:none;background-color: transparent;color:#fff;font-size: 0.28rem;letter-spacing: 1px;}
+
+.goods-total{line-height: 1rem;border-top: 1px solid #ddd;padding:0 0.25rem;font-size: 0.25rem;}
+.goods-total label{margin-right: 0.1rem;}
+.goods-total span{font-size: 0.26rem;color:#222;margin-left: 0.8rem;}
+.goods-total span b{color:#f23030;font-size: 0.28rem;}
+.goods-total span i{font-size: 0.25rem;color:#999;margin-left: 0.07rem;}
+.settlement-btn{display: inline-block;background-color: #e3241a;position: absolute;right: 0;color:#fff;padding:0 0.25rem 0 0.5rem;height: 100%;font-size: 0.3rem;letter-spacing: 1px;}
+.cart-total{position: absolute;width: 100%;bottom: 1rem;}
+div.cart-mask{margin-bottom: 1.1rem;}
+/*radio美化*/
+.radio-decoration{display: none;}
+.radio-decoration+label{width: 0.4rem;height: 0.4rem;border:2px solid #ddd;background-color: #fff;border-radius: 50%;display: inline-block;vertical-align: middle;background-color: #fff;}
+.radio-decoration:checked+label{background: url(../images/shopping-cart/hook-icon.png) center center no-repeat;background-size: cover;border-color: #e3241a;background-color: #e3241a;}
+/*购物车 结束*/
+/*购买订单 开始*/
+.recipt-address{padding-bottom: 0.4rem;}
+.recipt-address h2{padding:0 0.25rem 0 0.65rem;border-bottom: 1px solid #ddd;font-size: 0.26rem;background: url(../images/shopping-cart/receipt-address.png) 0.25rem center no-repeat;background-size:0.28rem 0.28rem;line-height: 0.8rem;position: relative;}
+.recipt-address h2 a{position: absolute;right: 0.2rem;padding-right: 0.25rem;background: url(../images/my/myright-arrow.png) right center no-repeat;background-size: 0.14rem 0.24rem;}
+.recipt-address p{margin:0 0.25rem;line-height: 0.45rem;font-size: 0.25rem;color:#333;}
+.order-total{text-align:center;position: relative;}
+.order-total span{margin-right: 0.4rem;}
+ul.order-msg{border:none;}
+ul.order-msg li input{width: 85%;padding:0.1rem 0.2rem;font-size: 0.25rem;line-height: 0.3rem;background-color: transparent;color:#555;}
+/*够买订单 结束*/
+
+/* 购买成功以及空购物车 start*/
+.purchase-status{height: 5rem;background:#fff;border-bottom: 1px solid #ddd;padding-top:0.65rem;}
+.purchase-status-icon{width: 1.42rem;height: 1.42rem;margin:0 auto;margin-bottom:0.5rem;}
+.purchase-status-icon img{width: 100%;height: 100%;}
+.purchase-status p{font-size:0.25rem;color:#666;text-align:center;}
+.purchase-status a{display:block;width: 2rem;height: 0.6rem;text-align:center;line-height:0.6rem;margin:0.4rem auto;font-size:0.25rem;border:1px solid #ddd;color:#666;border-radius:3px;}
+/* 购买成功以及空购物车 end*/

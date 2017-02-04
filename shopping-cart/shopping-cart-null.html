@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=0, user-scalable=no"/>
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="format-detection" content="telephone=no">
+	<meta name="x5-orientation" content="portrait"/>
+	<meta name="screen-orientation" content="portrait"/>
+	<title>购物车为空</title>
+	<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/main.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/index.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/shopping-cart.css">
+	<script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="../js/rem.js"></script>
+</head>
+<body>
+	<!-- top start -->
+	<header class="header psa">
+		<div class="header-wrap psr">
+			<div class="header-left psa">
+				<span class="header-return" onclick="history.go(-1)"><i></i>返回</span>	
+				<span class="header-close">关闭</span>
+			</div>
+			购物车
+			<div class="header-right psa">
+				<span class="header-more"></span>
+			</div>	
+		</div>
+	</header>
+	<!-- top end -->
+
+	<section class="container sec-mgtb">
+		<div class="purchase-status">
+			<div class="purchase-status-icon">
+				<img src="../images/shopping-cart/gwc_null.png">
+			</div>
+			<p>您的购物车暂无商品</p>
+			<a href="javascript:;">随便逛逛</a>
+		</div>
+
+	    <!-- 为您优选推荐 start -->
+		<div class="xsqg-wrap">
+			<div class="share-title guess-like-title fw psr">
+				为您优选推荐
+			</div>
+
+			<ul class="guess-like-list clearfix">
+				<li class="guess-like-list-item">
+					<a href="javascript:;">
+						<div class="guess-like-img">
+							<img src="../images/cnxh1.jpg">
+						</div>
+					</a>
+					<p class="two-line">BLACKJACK简约休闲T恤衫</p>
+					<span><b>18000</b>积分</span>
+				</li>
+				<li class="guess-like-list-item">
+					<a href="javascript:;">
+						<div class="guess-like-img">
+							<img src="../images/cnxh2.jpg">
+						</div>
+					</a>
+					<p class="two-line">F.L.Y.D 纯色百搭基础款T恤衫</p>
+					<span><b>15000</b>积分</span>
+				</li>
+				<li class="guess-like-list-item">
+					<a href="javascript:;">
+						<div class="guess-like-img">
+							<img src="../images/cnxh3.jpg">
+						</div>
+					</a>
+					<p class="two-line">Lightning Bear 男士哥伦比亚衬衫</p>
+					<span><b>30000</b>积分</span>
+				</li>
+				<li class="guess-like-list-item">
+					<a href="javascript:;">
+						<div class="guess-like-img">
+							<img src="../images/cnxh4.jpg">
+						</div>
+					</a>
+					<p>SYS.tag简约休闲T恤【秋季新品】</p>
+					<span><b>1600</b>积分</span>
+				</li>
+				<li class="guess-like-list-item">
+					<a href="javascript:;">
+						<div class="guess-like-img">
+							<img src="../images/cnxh5.jpg">
+						</div>
+					</a>
+					<p class="two-line">Life·After Life 条纹长袖衬衫</p>
+					<span><b>2000</b>积分</span>
+				</li>
+				<li class="guess-like-list-item">
+					<a href="javascript:;">
+						<div class="guess-like-img">
+							<img src="../images/cnxh6.jpg">
+						</div>
+					</a>
+					<p class="two-line">Mee joan 男款牛津纺衬衫浅蓝色</p>
+					<span><b>4000</b>积分</span>
+				</li>	
+			</ul>
+		</div>
+		<!-- 为您优选推荐 end -->
+	</section>
+
+	<!-- footer start -->
+	<footer>
+		<div class="home-menu ul-list clearfix bg2">
+			<ul class="home-menu-list">
+				<li >
+					<a href="../index.html">
+						<div class="home-memu-icon home-icon"></div>
+						<p>首页</p>
+					</a>
+				</li>
+				<li>
+					<a href="../class/classification.html">
+						<div class="home-memu-icon classfiy-icon"></div>
+						<p>分类</p>
+					</a>
+				</li>
+				<li>
+					<a href="../indiana/indiana-list.html">
+						<div class="home-memu-icon indiana-icon"></div>
+						<p>一分夺宝</p>
+					</a>
+				</li>
+				<li class="home-select">
+					<a href="shopping-cart/cart.html">
+						<div class="home-memu-icon cart-icon"></div>
+						<p>购物车</p>
+					</a>
+				</li>
+				<li>
+					<a href="../register-login/not-login.html">
+						<div class="home-memu-icon my-icon"></div>
+						<p>我的</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</footer> 
+	<!-- footer end -->
+
+	<script type="text/javascript">
+	    //公告
+	    $(".header-message").click(function(){
+	    	window_href("details/mall-announcement.html");
+	    });
+    </script>
+</body>
+</html>

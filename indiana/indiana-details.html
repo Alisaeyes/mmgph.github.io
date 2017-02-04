@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=0, user-scalable=no"/>
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="format-detection" content="telephone=no">
+	<meta name="x5-orientation" content="portrait"/>
+	<meta name="screen-orientation" content="portrait"/>
+	<title>夺宝详情</title>
+	<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/main.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/index.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/indiana.css">
+	<link rel="stylesheet" type="text/css" href="../css/details.css">
+	<link rel="stylesheet" type="text/css" href="../css/shopping-cart.css">
+	<script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="../js/rem.js"></script>
+	<script type="text/javascript" src="../js/swiper-3.3.1.jquery.min.js"></script>
+</head>
+<body class="bg1">
+	<!-- top start -->
+	<header class="header psa">
+		<div class="header-wrap psr">
+			<div class="header-left psa">
+				<span class="header-return" onclick="history.go(-1)"><i></i>返回</span>	
+				<span class="header-close">关闭</span>
+			</div>
+			1分夺宝
+			<div class="header-right psa">
+				<span class="header-more"></span>
+			</div>	
+		</div>
+	</header>
+	<!-- top end -->
+
+	<section class="container sec-indiana">
+		<!-- banner start -->
+		<div class="swiper-container indiana-banner swiper-container-horizontal psr">
+	        <div class="swiper-wrapper">
+	            <div class="swiper-slide swiper-slide-active">
+	            	<a href="javascript:;">
+	            		<img src="../images/indiana/indiana-banner1.jpg" width="100%">
+	            	</a>
+	            </div>
+	            <div class="swiper-slide swiper-slide-next">
+	            	<a href="javascript:;">
+	            		<img src="../images/banner1.jpg" width="100%">
+	            	</a>
+	            </div>
+	            <div class="swiper-slide swiper-slide-active">
+	            	<a href="javascript:;">
+	            		<img src="../images/indiana/indiana-banner1.jpg" width="100%">
+	            	</a>
+	            </div>
+	        </div>
+	        <!-- Pagination -->
+	        <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"></div>
+	    </div>
+	    <!-- banner end -->
+	    <div class="detials-processing bg2">
+	    	<h2>
+	    		<span class="rads">进行中</span>
+	    		小米手环2
+	    	</h2>
+	    	<div class="progress-bar">
+	    		<div class="bar-percent"></div>
+	    	</div>
+	    	<ul class="process-list clearfix">
+	    		<li>
+	    			<h2>
+	    				<b>766</b>
+	    				<p>已参与</p>
+	    			</h2>
+	    		</li>
+	    		<li class="process-alignc">
+	    			<h2>
+	    				<span>1799</span>
+	    				<p>总需人次</p>
+	    			</h2>
+	    		</li>
+	    		<li class="process-alignr">
+	    			<h2>
+	    				<i>1033</i>
+	    				<p>剩余</p>
+	    			</h2>
+	    		</li>
+	    	</ul>
+	    </div>
+	    <div class="part-indiana bg2 indiana-mtop">
+	    	<h2>你没有参与本期夺宝</h2>
+	    </div>
+	    <ul class="indiana-details-list bg2 indiana-mtop">
+	    	<li>
+	    		<a href="participation-record.html">
+		    		<p class="record-details">所有参与记录</p>
+		    		<span></span>
+		    	</a>
+	    	</li>
+	    	<li class="indiana-last-li">
+	    		<a href="indiana-photo-details.html">
+		    		<p class="photo-details">图文详情</p>
+		    		<span></span>
+		    	</a>
+	    	</li>
+	    </ul>
+	    <div class="indiana-success bg2 indiana-mtop">
+	    	<h2>上一轮夺宝成功者</h2>
+	    	<div class="success-user">
+	    		<img src="../images/indiana/indiana.png" alt="">
+	    		<span>一分就能中</span>
+	    		<p>
+	    			<b>参与56积分</b>
+	    			<b>2016-11-11 10:33:48</b>
+	    		</p>
+	    	</div>
+	    </div>
+	    <div class="indiana-immediately bg2">
+	    	参与
+    		<div class="num-control clearfix">
+				<span class="reduce add-sub fl on">-</span>
+				<span class="num num-box fl">1</span>
+				<span class="plus add-sub fl">＋</span>
+			</div>
+			<a class="settlement-btn" href="javascript:;">马上夺宝</a>
+	    </div>
+	</section>
+</body>
+<script type="text/javascript" src="../js/main.js"></script>
+<script type="text/javascript">
+	var swiper = new Swiper('.swiper-container', {
+	    pagination: '.swiper-pagination',
+	    autoplayDisableOnInteraction : false,
+	    paginationClickable: true,
+	    loop:true,
+	    autoplay:3000
+	});
+</script>
+</html>

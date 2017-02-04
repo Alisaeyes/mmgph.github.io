@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=0, user-scalable=no"/>
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="format-detection" content="telephone=no">
+	<meta name="x5-orientation" content="portrait"/>
+	<meta name="screen-orientation" content="portrait"/>
+	<title>我的</title>
+	<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/main.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/index.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/my.css">
+	<script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="../js/rem.js"></script>
+	<script type="text/javascript" src="../js/swiper-3.3.1.jquery.min.js"></script>
+</head>
+<body class="bg1">
+	<!-- top start -->
+	<header class="header psa">
+		<div class="header-wrap psr">
+			<div class="header-left psa">
+				<span class="header-return" onclick="history.go(-1)"><i></i>返回</span>	
+				<span class="header-close">关闭</span>
+			</div>
+			我的
+			<div class="header-right psa">
+				<span class="header-more"></span>
+			</div>	
+		</div>
+	</header>
+	<!-- top end -->
+	<section class="sec-mgtb">
+		<div class="my-banner">
+			<div class="user-photo">
+				<img src="../images/my/user-img1.png">
+			</div>
+			<div class="vip-level">
+				<img src="../images/my/v1.png">
+			</div>
+			<h2 class="user-name" onclick="window_href('account-manager.html')">
+				Mr.chen12345
+				<span></span>
+			</h2>
+		</div>
+		<!-- 我的订单 开始 -->
+		<div class="my-order bg2">
+			<h2>
+				我的订单
+				<a href="my-order.html">查看全部订单</a>
+			</h2>
+			<ul class="view-progress ul-list clearfix">
+				<li>
+					<a href="pre-payment.html">
+						<div class="progress-icon">
+							<img src="../images/my/pay.png" alt="">
+						</div>
+						<p>待付款</p>
+					</a>
+				</li>
+				<li>
+					<a href="be-reived.html">
+						<div class="progress-icon">
+							<img src="../images/my/receipt.png" alt="">
+							<span>3</span>
+						</div>
+						<p>待收货</p>
+					</a>
+				</li>
+				<li>
+					<a href="be-evaluated.html">
+						<div class="progress-icon">
+							<img src="../images/my/comment.png" alt="">
+						</div>
+						<p>待评价</p>
+					</a>
+				</li>
+				<li>
+					<a href="returned-goods.html">
+						<div class="progress-icon">
+							<img src="../images/my/replacement.png" alt="">
+						</div>
+						<p>退换货</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<!-- 我的订单 结束 -->
+		<!-- 我的菜单 开始 -->
+		<ul class="my-menu-list ul-list clearfix mtop bg2 my-menu-list-botom">
+			<li>
+				<a href="account-manager.html">
+					<img src="../images/my/my-menu1.png" alt="">
+					<p>个人管理</p>
+				</a>
+			</li>
+			<li>
+				<a href="shipping-address.html">
+					<img src="../images/my/my-menu2.png" alt="">
+					<p>地址管理</p>
+				</a>
+			</li>
+			<li>
+				<a href="my-message.html">
+					<img src="../images/my/my-menu3.png" alt="">
+					<p>我的消息</p>
+				</a>
+			</li>
+			<li>
+				<a href="my-points.html">
+					<img src="../images/my/my-menu4.png" alt="">
+					<p>我的积分</p>
+				</a>
+			</li>
+			<li>
+				<a href="focus-goods.html">
+					<img src="../images/my/my-menu5.png" alt="">
+					<p>关注商品</p>
+				</a>
+			</li>
+			<li>
+				<a href="focus-on-brand.html">
+					<img src="../images/my/my-menu6.png" alt="">
+					<p>关注品牌</p>
+				</a>
+			</li>
+			<li>
+				<a href="account-security.html">
+					<img src="../images/my/my-menu7.png" alt="">
+					<p>账户安全</p>
+				</a>
+			</li>
+			<li>
+				<a href="settings.html">
+					<img src="../images/my/my-menu8.png" alt="">
+					<p>我的设置</p>
+				</a>
+			</li>
+		</ul>
+		<!-- 我的菜单结束 -->
+	</section>
+	<footer>
+		<div class="home-menu ul-list clearfix bg2">
+			<ul class="home-menu-list">
+				<li>
+					<a href="../index.html">
+						<div class="home-memu-icon home-icon"></div>
+						<p>首页</p>
+					</a>
+				</li>
+				<li>
+					<a href="../class/classification.html">
+						<div class="home-memu-icon classfiy-icon"></div>
+						<p>分类</p>
+					</a>
+				</li>
+				<li>
+					<a href="../indiana/indiana-list.html">
+						<div class="home-memu-icon indiana-icon"></div>
+						<p>一分夺宝</p>
+					</a>
+				</li>
+				<li>
+					<a href="../shopping-cart/cart.html">
+						<div class="home-memu-icon cart-icon"></div>
+						<p>购物车</p>
+					</a>
+				</li>
+				<li class="home-select">
+					<a href="my.html">
+						<div class="home-memu-icon my-icon"></div>
+						<p>我的</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</footer>
+</body>
+</html>

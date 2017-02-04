@@ -1,0 +1,34 @@
+{"commentDate":[
+  {
+    "userImg":"../images/indiana/cy_user_head4.png",
+    "userName":"我是土豪中的战斗壕ohyeah",
+    "time":"2016-12-8",
+    "commentContent":"180,80kg，衣服真的是超级好看，本人体型偏胖，可惜选的有些大了。快递隔天就到我也不换了，穿着非常有型，满意!!",
+    "commentImgs":["../images/details/product-img1.png","../images/details/product-img2.png"],
+    "score":5
+  },
+  {
+    "userImg":"../images/indiana/cy_user_head2.png",
+    "userName":"Gress_Jasn",
+    "time":"2016-12-1",
+    "commentContent":"衣服真的是超级好看，本人体型偏胖，可惜选的有些大了。快递隔天就到我也不换了，穿着非常有型，满意!!",
+    "commentImgs":["../images/details/product-img1.png","../images/details/product-img2.png"],
+    "score":3
+  },
+  {
+    "userImg":"../images/indiana/cy_user_head5.png",
+    "userName":"Jasn",
+    "time":"2016-12-5",
+    "commentContent":"快递隔天就到我也不换了，穿着非常有型，满意!!",
+    "commentImgs":["../images/details/product-img1.png"],
+    "score":2
+  },
+  {
+    "userImg":"../images/indiana/indiana.png",
+    "userName":"wujiabk",
+    "time":"2016-12-10",
+    "commentContent":"快递隔天就到我也不换了，穿着非常有型，满意!!",
+    "commentImgs":["../images/details/product-img2.png"],
+    "score":4
+  }
+]}

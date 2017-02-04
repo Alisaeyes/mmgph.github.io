@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=0, user-scalable=no"/>
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="format-detection" content="telephone=no">
+	<title>关注的商品</title>
+	<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/main.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/index.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/details.css">
+	<link rel="stylesheet" type="text/css" href="../css/shopping-cart.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/my.css">
+	<script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="../js/rem.js"></script>
+	<script type="text/javascript" src="../js/swiper-3.3.1.jquery.min.js"></script>
+</head>
+<body class="bg1">
+	<!-- top start -->
+	<header class="header psa">
+		<div class="header-wrap psr">
+			<div class="header-left psa">
+				<span class="header-return" onclick="history.go(-1)"><i></i>返回</span>	
+				<span class="header-close">关闭</span>
+			</div>
+			关注的商品
+			<div class="header-right psa">
+				<span class="header-more"></span>
+			</div>	
+		</div>
+	</header>
+	<!-- top end -->
+	<section class="sec-mgtop">
+		<ul class="cart-list bg2 focus-goods">
+			<div class="cart-title">
+				<a class="shops-name" href="../shops/shop.html">
+					<span>
+						corade原创专营店
+					</span>
+				</a>
+			</div>
+			<li>
+			    <a href="../details/product-details.html">
+				    <img src="../images/shopping-cart/cart-goods1.jpg">
+					<div class="goods-msg" >
+						<h2>corade 黑色棉衣</h2>
+						<span>颜色：黑色  尺码：S</span>
+						<p>
+							<b>20000</b>积分
+							<i>取消关注</i>
+						</p>
+					</div>
+				</a>
+			</li>
+			<li>
+			   <a href="../details/product-details.html">
+					<img src="../images/shopping-cart/cart-goods2.jpg">
+					<div class="goods-msg" >
+						<h2>corade 黑色棉衣</h2>
+						<span>颜色：黑色  尺码：S</span>
+						<p>
+							<b>20000</b>积分
+							<i>取消关注</i>
+						</p>
+					</div>
+				</a>
+			</li>
+		</ul>
+		<ul class="cart-list cart-list-top focus-goods bg2">
+			<div class="cart-title">
+				<a class="shops-name" href="../shops/shop.html">
+					<span>
+						corade原创专营店
+					</span>
+				</a>
+			</div>
+			<li>
+			    <a href="../details/product-details.html">
+					<img src="../images/shopping-cart/cart-goods3.jpg">
+					<div class="goods-msg" >
+						<h2>corade 黑色棉衣</h2>
+						<span>颜色：黑色  尺码：S</span>
+						<p>
+							<b>20000</b>积分
+							<i>取消关注</i>
+						</p>
+					</div>
+				</a>
+			</li>
+			<li>
+			    <a href="../details/product-details.html">
+					<img src="../images/shopping-cart/cart-goods4.jpg">
+					<div class="goods-msg" >
+						<h2>corade 黑色棉衣</h2>
+						<span>颜色：黑色  尺码：S</span>
+						<p>
+							<b>20000</b>积分
+							<i>取消关注</i>
+						</p>
+					</div>
+				</a>
+			</li>
+		</ul>
+		<ul class="cart-list cart-list-top bg2 focus-goods">
+			<div class="cart-title">
+				<a class="shops-name" href="../shops/shop.html">
+					<span>
+						corade原创专营店
+					</span>
+				</a>
+			</div>
+			<li>
+			    <a href="../details/product-details.html">
+				    <img src="../images/shopping-cart/cart-goods1.jpg">
+					<div class="goods-msg" >
+						<h2>corade 黑色棉衣</h2>
+						<span>颜色：黑色  尺码：S</span>
+						<p>
+							<b>20000</b>积分
+							<i>取消关注</i>
+						</p>
+					</div>
+				</a>
+			</li>
+			<li>
+			   <a href="../details/product-details.html">
+					<img src="../images/shopping-cart/cart-goods2.jpg">
+					<div class="goods-msg" >
+						<h2>corade 黑色棉衣</h2>
+						<span>颜色：黑色  尺码：S</span>
+						<p>
+							<b>20000</b>积分
+							<i>取消关注</i>
+						</p>
+					</div>
+				</a>
+			</li>
+		</ul>
+	</section>
+</body>
+<script type="text/javascript" src="../js/main.js"></script>
+<script type="text/javascript">
+	$(function(){
+		//购物车编辑
+		edit_cart(".cart-title>b",".goods-msg",".edit-msg");
+		// 编辑产品信息弹窗打开
+		$(".edit-msg>p").click(function(){
+	    	$(".commodity-mask").fadeIn(0,function() {
+	    		$(".commodity-details-select").css({
+		    		"transform":"translate3d(0,0,0)"
+		    	});
+	    	});
+	    	
+	    });
+	    // 编辑产品信息弹窗关闭
+	     $(".close-btn").click(function(){
+	    	$(".commodity-details-select").css({
+	    		"transform":"translate3d(0,100%,0)"
+	    	});
+	    	setTimeout(function(){
+	    		$(".commodity-mask").fadeOut(0);
+	    	},500);
+	    });
+	     $(".goods-msg p>i").click(function(e){
+	     	event.preventDefault();
+	     });
+	});
+</script>
+</html>

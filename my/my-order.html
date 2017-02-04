@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=0, user-scalable=no"/>
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="format-detection" content="telephone=no">
+	<meta name="x5-orientation" content="portrait"/>
+	<meta name="screen-orientation" content="portrait"/>
+	<title>我的订单</title>
+	<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/main.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/my.css">
+	<script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="../js/rem.js"></script>
+</head>
+<body class="bg1">
+	<!-- top start -->
+	<header class="header psa">
+		<div class="header-wrap psr">
+			<div class="header-left psa">
+				<span class="header-return" onclick="history.go(-1)"><i></i>返回</span>	
+				<span class="header-close">关闭</span>
+			</div>
+			我的订单
+			<div class="header-right psa">
+				<span class="header-more"></span>
+			</div>	
+		</div>
+	</header>
+	<!-- top end -->
+	<section class="sec-mgtb mt154">
+		<div class="my-order-tab clearfix psa">
+			<div class="my-order-tab-item fl">
+				<span class="on" onclick="window_href('my-order.html')">全部</span>
+			</div>
+			<div class="my-order-tab-item fl">
+				<span onclick="window_href('pre-payment.html')">待付款</span>
+			</div>
+			<div class="my-order-tab-item fl">
+				<span onclick="window_href('be-delivered.html')">待发货</span>
+			</div>
+			<div class="my-order-tab-item fl">
+				<span onclick="window_href('be-reived.html')">待收货</span>
+			</div>
+			<div class="my-order-tab-item fl">
+				<span onclick="window_href('be-evaluated.html')">待评价</span>
+			</div>
+		</div>
+		<div class="my-order-tab-content">
+			<ul class="my-order-tab-content-list">
+				<li class="my-order-tab-content-list-item">
+					<div class="my-order-tab-content-title clearfix one-line">
+						<div class="my-order-tab-content-name fl">
+							<a href="javascript:;">
+								<i></i><span>bershka官方旗舰店</span><b></b>
+							</a>
+						</div>
+						<div class="my-order-tab-content-state fr">
+							<span>交易关闭</span>
+						</div>
+					</div>
+					<div class="my-order-tab-content-details clearfix">
+						<a href="../details/product-details.html">
+							<div class="my-order-tab-content-details-img fl">
+								<img src="../images/my/my-order/my-order-img1.png">							
+							</div>
+							<div class="my-order-tab-content-details-message fl">
+								<div class="my-order-tab-content-details-name two-line">Bershka 女鞋 拉链平底短筒靴 16051131</div>
+								<div class="my-order-tab-content-details-class">
+									<span>颜色分类：灰色;</span>
+									<span>尺码：35;</span>
+								</div>
+								<div class="my-order-tab-content-details-tag">
+									<span>七天退换</span>
+								</div>
+							</div>
+							<div class="my-order-tab-content-details-money fr">
+								<p class="my-order-tab-content-details-x-money">
+									2490积分
+								</p>
+								<p class="my-order-tab-content-details-y-money">
+									2490积分
+								</p>
+								<p class="my-order-tab-content-details-num">x2</p>
+							</div>
+						</a>
+					</div>
+					<div class="my-order-tab-content-footer">
+						<div class="my-order-tab-content-total">
+							<span>共2件商品</span>
+							<span>合计：<b>4980</b>积分</span>
+						</div>
+						<div class="my-order-tab-content-operation">
+							<input class="rads" type="button" name="" value="删除订单">
+						</div>
+					</div>
+				</li>
+				<li class="my-order-tab-content-list-item">
+					<div class="my-order-tab-content-title clearfix one-line">
+						<div class="my-order-tab-content-name fl">
+							<a href="javascript:;">
+								<i></i><span>爱尚玻璃潮流馆</span><b></b>
+							</a>
+						</div>
+						<div class="my-order-tab-content-state fr">
+							<span>交易成功</span>
+						</div>
+					</div>
+					<div class="my-order-tab-content-details clearfix">
+						<a href="../details/product-details.html">
+							<div class="my-order-tab-content-details-img fl">
+								<img src="../images/my/my-order/my-order-img2.png">							
+							</div>
+							<div class="my-order-tab-content-details-message fl">
+								<div class="my-order-tab-content-details-name two-line">特价包邮超大号冷切口波尔多水晶红酒杯套装高脚杯香槟杯葡萄酒杯</div>
+								<div class="my-order-tab-content-details-class one-line">
+									<span>分类：650ml红酒杯（单只）主图款</span>
+								</div>
+								<div class="my-order-tab-content-details-tag">
+								</div>
+							</div>
+							<div class="my-order-tab-content-details-money fr">
+								<p class="my-order-tab-content-details-x-money">
+									1400积分
+								</p>
+								<p class="my-order-tab-content-details-y-money">
+									1700积分
+								</p>
+								<p class="my-order-tab-content-details-num">x1</p>
+							</div>
+						</a>
+					</div>
+					<div class="my-order-tab-content-footer">
+						<div class="my-order-tab-content-total">
+							<span>共1件商品</span>
+							<span>合计：<b>1400</b>积分</span>
+						</div>
+						<div class="my-order-tab-content-operation">
+							<span>更多</span>
+							<input class="rads" onclick="window_href('message-details.html')" type="button" name="" value="查看物流">
+							<input class="rads on-btn" type="button" name="" value="评价">
+						</div>
+					</div>
+				</li>
+				<li class="my-order-tab-content-list-item">
+					<div class="my-order-tab-content-title clearfix one-line">
+						<div class="my-order-tab-content-name fl">
+							<a href="javascript:;">
+								<i></i><span>玉麟贝尔旗舰店</span><b></b>
+							</a>
+						</div>
+						<div class="my-order-tab-content-state fr">
+							<span>交易成功</span>
+						</div>
+					</div>
+					<div class="my-order-tab-content-details clearfix">
+						<a href="../details/product-details.html">
+							<div class="my-order-tab-content-details-img fl">
+								<img src="../images/my/my-order/my-order-img3.png">							
+							</div>
+							<div class="my-order-tab-content-details-message fl">
+								<div class="my-order-tab-content-details-name two-line">
+									中老年女装秋装外套40-50岁妈妈春秋上衣修身中年风衣女中长款
+								</div>
+								<div class="my-order-tab-content-details-class one-line">
+									<span>颜色分类：枣红;尺码：M（建议83-98斤）</span>
+								</div>
+								<div class="my-order-tab-content-details-tag">
+									<span>七天退换</span>
+								</div>
+							</div>
+							<div class="my-order-tab-content-details-money fr">
+								<p class="my-order-tab-content-details-x-money">
+									3100积分
+								</p>
+								<p class="my-order-tab-content-details-y-money">
+									6500积分
+								</p>
+								<p class="my-order-tab-content-details-num">x1</p>
+							</div>
+						</a>
+					</div>
+					<div class="my-order-tab-content-footer">
+						<div class="my-order-tab-content-total">
+							<span>共1件商品</span>
+							<span>合计：<b>3100</b>积分</span>
+						</div>
+						<div class="my-order-tab-content-operation">
+							<span>更多</span>
+							<input class="rads" type="button" name="" onclick="window_href('message-details.html')" value="查看物流">
+							<input class="rads on-btn" type="button" name="" value="评价">
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<footer>
+		<div class="home-menu ul-list clearfix bg2">
+			<ul class="home-menu-list">
+				<li>
+					<a href="../index.html">
+						<div class="home-memu-icon home-icon"></div>
+						<p>首页</p>
+					</a>
+				</li>
+				<li>
+					<a href="../class/classification.html">
+						<div class="home-memu-icon classfiy-icon"></div>
+						<p>分类</p>
+					</a>
+				</li>
+				<li>
+					<a href="../indiana/indiana-list.html">
+						<div class="home-memu-icon indiana-icon"></div>
+						<p>一分夺宝</p>
+					</a>
+				</li>
+				<li>
+					<a href="../shopping-cart/cart.html">
+						<div class="home-memu-icon cart-icon"></div>
+						<p>购物车</p>
+					</a>
+				</li>
+				<li class="home-select">
+					<a href="my.html">
+						<div class="home-memu-icon my-icon"></div>
+						<p>我的</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</footer>
+</body>
+</html>

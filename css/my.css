@@ -1,0 +1,206 @@
+@charset "utf-8";
+.sec-mgbot{margin-bottom: 0.8rem;}
+/*我的 开始*/
+.my-banner{width: 100%;height: 3.1rem;background: url(../images/my/my-banner1.jpg) center center no-repeat;background-size: cover;text-align: center;padding-top: 0.45rem;position: relative;}
+.user-photo{width: 1.5rem;height: 1.5rem;border:3px solid #f68b74;border-radius: 50%;margin:0 auto;}
+.user-photo img,.my-order-tab-content-details-img img{width: 100%;height: 100%;}
+.vip-level{position: absolute;right: 0px;top:1.1rem;height: 0.45rem;background: rgba(0,0,0,0.3);color:#fff;padding-left:0.3rem;border-top-left-radius:15% 50%;border-bottom-left-radius:15% 50%; font-size: 0.25rem;line-height: 0.4rem;padding-right: 0.2rem;line-height: 0.45rem;}
+.vip-level img{width: 0.9rem;height: 0.3rem;vertical-align: middle;}
+.user-name{font-size: 0.3rem;color:#fff;margin-top: 0.24rem;line-height: 0.3rem;}
+.user-name span{display: inline-block;width: 0.4rem;height: 0.4rem;border:1px solid #fff;border-radius: 50%;text-align: center;line-height: 0.3rem;background: url(../images/my/right-arrow.png) 0.14rem 0.05rem no-repeat;background-size: 0.15rem 0.26rem;vertical-align: -0.1rem;}
+.my-order h2{line-height: 1.2rem;position: relative;color:#333;font-size: 0.3rem;margin:0 0.25rem;}
+.my-order h2 a {position: absolute;right: 0;padding-right:0.34rem;background: url(../images/my/myright-arrow.png) right center no-repeat;background-size:0.2rem 0.3rem;display: inline-block;}
+.view-progress{margin-top: 0.3rem;}
+.view-progress li{float: left;width: 25%;text-align: center;font-size: 0.26rem;}
+.progress-icon{position: relative;display: inline-block;}
+.progress-icon img{width: 0.6rem;height: 0.56rem;}
+.progress-icon span{display: inline-block;width: 0.36rem;height: 0.36rem;color:#fff;background-color: #e3241a;line-height: 0.37rem;border-radius: 50%;font-size: 0.24rem;position: absolute;top:-0.23rem;right: -0.23rem;}
+.view-progress li p{margin-top: 0.2rem;font-size: 0.3rem;margin-bottom: 0.5rem;color:#666;}
+/*菜单*/
+.my-menu-list-botom{margin-bottom: 1.3rem;}
+.my-menu-list{padding:0.2rem 0 0.5rem 0;margin-top: 0.4rem;}
+.my-menu-list li{float: left;width: 25%;text-align: center;margin-top: 0.5rem;}
+.my-menu-list li img{width: 0.9rem;height: 0.9rem;}
+.my-menu-list li p{font-size: 0.3rem;color:#666;margin-top: 0.1rem;}
+/*我的 结束*/
+
+/*账户管理 开始*/
+.replace-photo{display: inline-block;background:rgba(0,0,0,0.4);color:#fff;font-size: 0.3rem;padding:0.06rem 0.2rem 0.1rem;margin-top: 0.2rem;}
+.account-list{padding-left: 0.35rem;border-bottom: 1px solid #ddd;border-top: 1px solid #ddd; }
+.account-list li{line-height: 0.85rem;color:#333;border-bottom: 1px solid #ddd;font-size: 0.3rem;position: relative;}
+.account-list li.account-last{border-bottom: none;}
+.account-list li span{position: absolute;right: 0.2rem;padding-right: 0.3rem;background: url(../images/my/myright-arrow.png) right center no-repeat;background-size: 0.14rem 0.24rem;color:#747474;min-width: 0.5rem;height: 100%;padding-top:0.05rem;}
+.out-login{display: block;line-height: 0.8rem;border-top:1px solid #ddd;margin-top: 0.7rem;text-align: center; position: absolute;width: 100%;bottom: 0;}
+.out-login span{color:#e3241a;padding-left: 0.3rem;background: url(../images/my/out-login.png) left center no-repeat;background-size: 0.3rem 0.3rem;font-size: 0.3rem;padding-top:0.1rem;text-indent: 0.05rem;}
+/*账户管理 结束*/
+
+/*我的消息 开始*/
+.my-msg{padding-top: 0.1rem;}
+.my-msg p{margin-top: 0.2rem;margin-bottom: 0.2rem;font-size: 0.25rem;color:#555;text-align: center;}
+.my-msg li{border:1px solid #ddd;border-radius: 3px;background-color: #fff;margin:0 0.2rem 0.3rem;font-size: 0.3rem;padding:0.25rem 0.2rem 0.2rem 0.25rem;text-align: right;}
+.my-msg li h2{font-size: 0.32rem;text-align: left;}
+.my-msg li span{font-size: 0.28rem;color:#888;margin-top: 0.15rem;margin-right: 0.3rem;line-height: 0.38rem;display: block;text-align: left;}
+.my-msg li b{display: inline-block;background: url(../images/my/my-msg-arrow.png) center center no-repeat;width: 0.13rem;height: 0.21rem;background-size: cover;}
+/*我的消息 结束*/
+
+/*查看详情 开始*/
+.logistics-status{padding:0.4rem 0.3rem;border-bottom: 1px solid #ddd;}
+.details-img{position: relative;width: 2rem;height: 2rem;margin-right: 0.3rem;}
+.details-img img{width: 100%;height: 100%;}
+.details-description{position: absolute;bottom: 0px;background: rgba(0,0,0,0.3);color:#fff;font-size: 0.25rem;text-align: center;line-height: 0.4rem;width: 100%;}
+.logistics-list li{font-size: 0.26rem;color:#999;margin-bottom: 0.15rem;}
+.logistics-list li b{color:#e3241a;}
+.logistics-list li span{color:#222;}
+.logistics-list li i{color:#3ea3ff;}
+.details-msg-content{margin: 0.78rem 0.3rem 0;}
+.details-msg-content .msg-txt1{font-size:0.3rem;color:#999;text-align: center; }
+.details-msg-content .msg-txt2{color:#333;line-height: 0.5rem;font-size: 0.3rem;margin-top: 0.3rem;}
+.contact-serv{position: absolute;width: 100%;bottom: 0;line-height: 0.9rem;font-size: 0.3rem;color:#666;padding-left: 0.4rem;}
+.contact-btn{background-color: #e3241a;color:#fff;font-size: 0.3rem;padding:0 0.6rem;line-height: 0.9rem;border: none;float: right;}
+/*查看详情 结束*/
+
+/*修改性别 修改昵称 修改手机号 开始*/
+.modify-list li{line-height: 0.8rem;border-bottom: 1px solid #ddd;padding:0 0.3rem;font-size: 0.3rem;color:#333;position: relative;}
+.modify-list li b{display: inline-block;width: 0.42rem;position: absolute;right: 0.3rem;height: 0.8rem;}
+.modify-list li b.modify-select{background: url(../images/confirm-icon.png) center center no-repeat;background-size: 0.4rem 0.4rem;}
+.confirm-btn{margin:0.35rem 0.3rem 0;}
+.modify-list li input{background-color: transparent;font-size: 0.35rem;color:#333;}
+/*修改性别 修改昵称 修改手机号 结束*/
+
+/*账户安全 开始*/
+.security-list li{line-height: 1.1rem;font-size: 0.3rem;}
+.security-list li b{width: 0.4rem;height: 0.4rem;margin-right: 0.15rem;display: inline-block;border-radius: 50%;float: left;margin-top: 0.35rem;background: url(../images/my/warn-icon.png) center center no-repeat;background-color: #e3241a;background-size: cover;}
+.security-list li b.vertified{background-image: url(../images/shopping-cart/hook-icon.png);background-color: #4bda66;}
+.security-list li span{background: url(../images/my/sercurity-arrow-icon.png) right center no-repeat;background-size: 0.2rem 0.35rem;padding-right: 0.3rem;}
+/*账户安全 结束*/
+
+/*收货地址  开始*/
+.recipt-pad{padding:0.35rem;background-color: #fff;line-height: normal;}
+.recipt-pad input{background-color: transparent;width: 100%;font-size: 0.26rem;line-height: 0.3rem;color:#333;}
+.recipt-bot{margin-bottom:0.3rem;}
+.recipt-pad textarea{color:#666;min-height: 1.3rem;width: 100%;text-align: left;resize:none;}
+.recipt-btn{background-color: #e3241a;color: #fff;font-size: 0.34rem;text-align: center;letter-spacing: 1px;line-height: 0.8rem;position: absolute;bottom: 0;width: 100%;border:none; }
+/*收货地址 结束*/
+
+/* 我的订单 start */
+.mt154{margin-top:1.66rem;}
+.my-order-tab{left:0;top:0.86rem;width: 100%;z-index:99999;}
+.my-order-tab,.my-order-tab-content-list-item,.my-order-tab-content-footer{background:#fff;}
+.my-order-tab-item{width: 20%;height: 0.8rem;line-height:0.8rem;border-bottom:1px solid #eee;text-align:center;font-size:0.3rem;color:#666;}
+.my-order-tab-item span{display:inline-block;height: 100%;border-bottom:2px solid transparent;}
+.my-order-tab-item .on{border-bottom:2px solid #ff6223;color:#ff6223;}
+
+.my-order-tab-content-list-item{margin-bottom:0.22rem;}
+.my-order-tab-content-title{height: 0.8rem;line-height:0.8rem;padding:0 0.2rem;border-bottom:1px solid #eee;}
+.my-order-tab-content-name i{display:inline-block;width: 0.35rem;height: 0.35rem;background:url(../images/shopping-cart/shop-icon.png);background-size:100% 100%;vertical-align:middle;margin-top:-0.05rem;}
+.my-order-tab-content-name span{padding-left:0.3rem;}
+.my-order-tab-content-name b{display:inline-block;width: 0.16rem;height:0.26rem;background:url(../images/my/my-msg-arrow.png);background-size:100% 100%;vertical-align:middle;margin-left:0.2rem;margin-top:-0.055rem;}
+.my-order-tab-content-state{color:#ff9560;}
+.my-order-tab-content-details{padding:0.2rem;background:#f5f5f5;}
+.my-order-tab-content-details-img{width: 1.3rem;height: 1.3rem;}
+.my-order-tab-content-details-message{width: 3.8rem;margin:0 0.2rem;font-size:0.25rem;}
+.my-order-tab-content-details-name{margin-top:-0.03rem;height: 0.7rem;line-height:0.38rem;}
+.my-order-tab-content-details-class{width: 100%;height: 0.4rem;margin:0.1rem 0;}
+.my-order-tab-content-details-class span{display:inline;}
+.my-order-tab-content-details-class,.my-order-tab-content-details-y-money,.my-order-tab-content-details-num{color:#999;}
+.my-order-tab-content-details-money{width: 1.6rem;margin-top:-0.05rem;font-size:0.3rem;text-align:right;}
+.my-order-tab-content-details-money p{margin-bottom:0.05rem;}
+.my-order-tab-content-details-y-money{text-decoration: line-through;}
+.my-order-tab-content-details-tag{margin-top:0.05rem;}
+.my-order-tab-content-details-tag span{padding:0.02rem 0.06rem;color:#fff;background:#dd2727;font-size:0.2rem;}
+
+.my-order-tab-content-footer{height: 1.8rem;}
+.my-order-tab-content-footer div{height: 50%;padding:0 0.2rem;line-height:0.9rem;text-align:right;}
+.my-order-tab-content-total{border-bottom:1px solid #eee;font-size:0.3rem;color:#666;}
+.my-order-tab-content-total span{padding-left:0.2rem;}
+.my-order-tab-content-total span b{color:#333;font-size:0.4rem;}
+.my-order-tab-content-footer .my-order-tab-content-operation{line-height:0rem;padding-top:0.135rem;}
+.my-order-tab-content-operation input{width: 1.4rem;height: 0.6rem;line-height:0.6rem;font-size:0.25rem;background:transparent;border:1px solid #ddd;color:#666;margin-left:0.2rem;}
+.my-order-tab-content-operation .on-btn{color:#ff6d24;border:1px solid #ff6d24;}
+.my-order-tab-content-operation span{font-size:0.25rem;color:#666;}
+/* 我的订单 end */
+
+/* 关注品牌 start */
+.focus-on-brand-list-item-img a,.focus-on-brand-list-item-img img{display:block;width: 100%;height: 100%;}
+
+.focus-on-brand-list,.points-list{background:#fff;}
+.focus-on-brand-list-item{margin-left:0.3rem;padding:0.35rem 0;border-bottom:1px solid #ddd;}
+.focus-on-brand-list-item:last-child{border-bottom:none;}
+.focus-on-brand-list-item-img{width: 2rem;height: 1rem;border:1px solid #ddd;}
+.focus-on-brand-list-item-name{margin:0 0.2rem;width: 3.1rem;}
+.focus-on-brand-list-item-name h4{font-size:0.3rem;margin-top:0.05rem;margin-bottom:0.18rem;}
+.focus-on-brand-list-item-name i{width: 0.3rem;height: 0.3rem;background:url(../images/my/gzpp_xx_icon.png);background-size:100% 100%;margin-right:0.03rem;}
+.focus-on-brand-list-item-btn{padding-right:0.28rem;}
+.focus-on-brand-list-item-btn input{width: 1.4rem;height: 0.6rem;border:1px solid #e3241a;color:#e3241a;background:transparent;margin-top:0.2rem;font-size:0.28rem;}
+/* 关注品牌 end */
+
+/* 我的积分 start */
+.my-points-total{height: 3rem;background:#f43a2e;color:#fff;}
+.my-points-total-box{padding:0.85rem 0.45rem;}
+.my-points-total-box p{font-size:0.3rem;background:url(../images/my/points_icon.png) left center no-repeat; background-size:0.42rem 0.38rem;text-indent:0.45rem;}
+.my-points-total-box h3{font-size:0.7rem;margin-top:0.2rem;}
+
+.points-list-item{height: 0.9rem;line-height:0.9rem;padding:0 0.45rem;font-size:0.3rem;}
+.points-list-item:first-child{border-bottom:1px solid #ddd;}
+.points-list-item:first-child div:last-child{color:#f43a2e;}
+.points-list-item i{display:inline-block;width: 0.44rem;height: 0.47rem;background:url(../images/my/points_icon1.png);background-size:100% 100%;vertical-align:middle;margin-top:-0.05rem;margin-right:0.2rem;}
+.points-list-item .consumption-integral-icon{background:url(../images/my/points_icon2.png);background-size:100% 100%;}
+.points-list-item .integral-record-icon{background:url(../images/my/points_icon3.png);background-size:100% 100%;}
+.points-list-item .oecords-consumption-icon{background:url(../images/my/points_icon4.png);background-size:100% 100%;}
+.record-list li div:last-child{height: 100%;width: 0.3rem;background:url(../images/my/myright-arrow.png) right center no-repeat; background-size:0.24rem 0.34rem;}
+/* 我的积分 end */
+
+/*关注的商品  开始*/
+.focus-goods .cart-title a,.focus-goods .cart-title span{display: block;}
+.focus-goods li a{display: block;}
+.focus-goods li a:after{content:"";display: block;clear: both;}
+.focus-goods .goods-msg p i{padding:0.02rem 0.1rem;border:1px solid #ff6d24;border-radius: 3px;color:#ff6d24;}
+/*关注的商品  结束*/
+
+/*收货地址 开始*/
+.address-list li{padding:0.3rem 0.25rem;background-color: #fff;margin-bottom: 0.2rem;}
+.address-list li span{font-size: 0.34rem;color:#333;display: block;position: relative;}
+.address-list li p{font-size: 0.3rem;color:#888;line-height: 0.45rem;margin-top: 0.15rem;}
+.address-list li p b{color:#fff;padding:0 0.15rem;font-size: 0.3rem;background-color: #e3241a;margin-right: 0.15rem;}
+.address-list li span a{position: absolute;right: 0.25rem; color: #555;
+font-size: 0.3rem;} 
+/*收货地址 结束*/
+
+/*会员等级 开始*/
+div.vip-banner{height:4.1rem;}
+div.vip-banner .user-photo{vertical-align: middle;}
+div.vip-img{padding:0.1rem 0.2rem 0.05rem;vertical-align: middle;}
+div.vip-img img{width: 0.94rem;height: 0.32rem;}
+
+.user-vip-level{margin: 0.15rem 0.25rem 0;position: relative;}
+.user-vip-level li{float: left;width: 18%;border-top:2px solid #FAC2C8;text-align: left;position: relative;height: 0.5rem;}
+.user-vip-level li span{display: inline-block;height: 100%;position: absolute;top: -2px;color:#FAF2F3;font-size: 0.24rem;padding-top: 0.1rem;}
+.user-vip-level li span p{text-align: center;font-size: 0.25rem;letter-spacing: -1px;margin-top: -0.05rem;}
+.user-vip-level li span sub{font-size: 0.2rem;color:#FAC2C8;}
+li.vip-color{border-color:#D3200D; }
+li.vip-span-color span{border-top: 2px solid #D3200D; }
+li.vip-last{width: auto;}
+li.vip-last span{border-top:2px solid #FAC2C8;}
+.grouth-value{color:#fff;font-size: 0.3rem;text-align: left;margin-left: 0.25rem;}
+.grouth-value-title{color:#333;font-size: 0.3rem;line-height: 0.7rem;padding-left: 0.2rem;}
+.vip-list{border-top: 1px solid #ddd;border-left: 1px solid #ddd;text-align: center;border-collapse: collapse;width:95%;margin:0 auto;margin-bottom: 0.3rem;}
+.vip-list tr{border:none;border-bottom:1px solid #ddd;}
+.vip-list td,.vip-list th{border-right: 1px solid #ddd;padding:0.2rem 0.05rem;font-size: 0.29rem;font-weight: normal;}
+.vip-list th{background-color: #f0f0f0;}
+.vip-list td,.vip-privileg td b{color:#777;}
+th.th-first i{font-size: 0.35rem;}
+.vip-privileg th span{font-size: 0.28rem;}
+.vip-privileg th img{width: 0.72rem;height: 0.26rem;}
+.vip-privileg td{color:#1DB625;}
+/*会员等级 结束*/
+/*积分记录 积分消费记录 开始*/
+.points-record-title{font-size: 0.3rem;color:#444;line-height: 0.6rem;background-color: #eee;padding-left: 0.25rem;}
+.points-record-list{padding-left: 0.25rem;}
+.points-record-list li{border-bottom: 1px solid #f0f0f0;padding:0.3rem 0.25rem;line-height: 100%;position: relative;padding-left: 0;line-height: 1rem;}
+.points-record-list li span{font-size: 0.3rem;margin-right: 0.25rem;color:#999;vertical-align: middle;line-height: normal;text-align: center;}
+.points-msg{font-size: 0.3rem;display: inline-block;width: 80%;line-height: normal;vertical-align: middle;}
+.points-msg img{width: 1rem;height: 1rem;border-radius: 50%;float: left;margin-right: 0.25rem;}
+.points-msg h2{font-size: 0.36rem;color:#333;}
+.points-msg h2 b{font-size: 0.28rem;margin-left: 0.1rem;}
+.points-msg  p{color:#888;font-size: 0.29rem;margin-top: 0.1rem;line-height: 0.35rem;-webkit-line-clamp:1;}
+/*积分记录 积分消费记录 结束*/

@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=0, user-scalable=no"/>
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="format-detection" content="telephone=no">
+	<meta name="x5-orientation" content="portrait"/>
+	<meta name="screen-orientation" content="portrait"/>
+	<title>商品详情</title>
+	<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/main.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/index.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/details.css">
+	<script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="../js/rem.js"></script>
+	<script type="text/javascript" src="../js/swiper-3.3.1.jquery.min.js"></script>
+</head>
+<body>
+	<!-- top start -->
+	<header class="header psa">
+		<div class="header-wrap psr">
+			<div class="header-left psa">
+				<span class="header-return" onclick="history.go(-1)"><i></i>返回</span>
+				<span class="header-close">关闭</span>
+			</div>
+			商品详情
+			<div class="header-right psa">
+				<span class="header-more"></span>
+			</div>
+		</div>
+	</header>
+	<!-- top end -->
+
+	<section class="container sec-mgtb">
+		<div class="details-wraps">
+			<!-- banner start -->
+			<div class="swiper-container swiper-container-horizontal psr">
+		        <div class="swiper-wrapper">
+		        	<div class="swiper-slide swiper-slide-active">
+		            	<a href="javascript:;">
+		            		<img src="../images/details/ditails_banner1.jpg" width="100%">
+		            	</a>
+		            </div>
+		            <div class="swiper-slide swiper-slide-active">
+		            	<a href="javascript:;">
+		            		<img src="../images/banner2.jpg" width="100%">
+		            	</a>
+		            </div>
+		            <div class="swiper-slide swiper-slide-next">
+		            	<a href="javascript:;">
+		            		<img src="../images/banner1.jpg" width="100%">
+		            	</a>
+		            </div>
+		        </div>
+		        <!-- Pagination -->
+		        <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets details-pages"></div>
+
+				<div class="product-name psa of">
+					Mee joan 男款牛津纺衬衫浅蓝色
+				</div>
+
+				<!-- 分享按钮 -->
+				<span class="psa share-btn"></span>
+		    </div>
+		    <!-- banner end -->
+
+			<ul class="product-list">
+		    	<li class="clearfix of">
+		    		<div class="product-list-left fl">
+		    			<span class="mr-product">热卖</span>
+		    			<b class="mr-jf">4000</b>
+		    			积分
+		    		</div>
+		    		<div class="product-list-right fr">
+		    			已售1188
+		    		</div>
+		    	</li>
+		    	<li class="clearfix">
+		    		<div class="product-list-left fl">
+		    			<span class="select-color">选择颜色分类，尺码</span>
+		    		</div>
+		    		<div class="product-list-right fr">
+		    			<span class="product-cm">完善尺码</span>
+		    		</div>
+		    	</li>
+		    </ul>
+
+		    <div class="commodity-evaluation mt22">
+		    	<div class="commodity-evaluation-tab clearfix">
+		    		<div class="fl on">
+		    			<a href="javascript:;" class="br1">评价晒单（<b>15</b>）</a>
+		    		</div>
+		    		<div class="fl">
+		    			<a href="javascript:;">购买咨询（<b>2</b>）</a>
+		    		</div>
+		    	</div>
+
+				<div class="commodity-evaluation-wrap">
+					<ul class="commodity-evaluation-details">
+			    		<li>
+			    			<div class="commodity-evaluation-name clearfix">
+			    				<div class="commodity-evaluation-img fl">
+			    					<img src="../images/details/user_headimg.png">
+			    				</div>
+			    				<div class="commodity-evaluation-name-time fl">
+			    					<h5>我是土豪中的战斗壕ohyeah</h5>
+			    					<div class="commodity-evaluation-time">
+			    						<span class="clearfix">
+				    						<i class="fl"></i>
+				    						<i class="fl"></i>
+				    						<i class="fl"></i>
+				    						<i class="fl"></i>
+				    						<i class="fl"></i>
+				    					</span>
+				    					<time>2015-08-26</time>
+			    					</div>
+			    				</div>
+			    			</div>
+			    			<div class="commodity-evaluation-text">
+		    					180,80kg，衣服真的是超级好看，本人体型偏胖，可惜选的有些大了。快递隔天就到我也不换了，穿着非常有型，满意!!
+		    					<div class="commodity-evaluation-text-img">
+		    						<img src="../images/details/product-img1.png" alt="">
+		    						<img src="../images/details/product-img2.png">
+		    					</div>
+		    				</div>
+			    		</li>
+			    	</ul>
+			    	<p class="commodity-evaluation-more">查看更多<i class="fm">&gt;</i></p>
+				</div>
+		    </div>
+
+		    <div class="merchant-shop clearfix mt22">
+		    	<div class="merchant-shop-img fl">
+		    		<img src="../images/details/sj_logo.png">
+		    	</div>
+		    	<div class="enter-merchant-shop fr">
+		    		<a href="../shops/shop.html">
+		    			进入店铺<i></i>
+		    		</a>
+		    	</div>
+		    </div>
+		</div>
+		<p class="ts_user">- 继续拖动，查看商品详情 -</p>
+	</section>
+
+	<!-- 选择尺码颜色弹窗 start -->
+	<div class="commodity-mask psa">
+		<div class="commodity-details-select psa">
+			<div class="commodity-message clearfix">
+				<div class="commodity-img fl">
+					<a href="javascript:;">
+						<img src="../images/details/gmsm_img.jpg">
+					</a>
+				</div>
+				<div class="commodity-names fl">
+					<div class="commodity-money">
+						<span>15000</span>积分
+					</div>
+					<p class="commodity-des">
+						corade 著名商标印花T恤
+					</p>
+					<div class="commodity-tis">
+						请选择颜色、尺码
+					</div>
+				</div>
+			</div>
+			<div class="color-class">
+				<h5>颜色分类</h5>
+				<div class="color-list colors scroll">
+					<span>黑色</span>
+					<span>白色</span>
+					<span>灰色</span>
+					<span>白色</span>
+					<span>灰色</span>
+					<span>白色</span>
+					<span>灰色</span>
+					<span>白色</span>
+					<span>灰色</span>
+					<span>白色</span>
+					<span>灰色</span>
+					<span>白色</span>
+					<span>灰色</span>
+				</div>
+			</div>
+			<div class="color-class">
+				<h5>尺码</h5>
+				<div class="color-list size-list">
+					<span>M</span>
+					<span>L</span>
+					<span>XL</span>
+					<span>XXL</span>
+				</div>
+			</div>
+			<div class="color-class">
+				<h5>购买数量</h5>
+				<div class="num-control clearfix">
+					<span class="reduce fl on">-</span>
+					<span class="num fl">1</span>
+					<span class="plus fl">＋</span>
+				</div>
+			</div>
+			<input class="determine-btn psa" type="button" name="" value="确定" onclick="window_href('../shopping-cart/purchase-order.html')">
+			<i class="close-btn psa"></i>
+		</div>
+	</div>
+	<!-- 选择尺码颜色弹窗 end -->
+
+	<!-- 弹窗加载 start -->
+	<div class="popup-load">
+		<div class="load-wrap">
+			<img src="../images/load.gif" alt="">
+		</div>
+	</div>
+	<!-- 弹窗加载 end -->
+
+	<footer class="details-btn psa">
+		<button class="fl details-btn1"><i></i>收藏商品</button>
+		<button class="fl details-btn2">加入购物车</button>
+		<button class="fl details-btn3">立即购买</button>
+	</footer>
+
+	<script type="text/javascript" src="../js/main.js"></script>
+	<script type="text/javascript">
+	    var swiper = new Swiper('.swiper-container', {
+	        pagination: '.swiper-pagination',
+	        autoplayDisableOnInteraction: false,
+	        paginationClickable: true,
+	        loop:true,
+	        autoplay:3000
+	    });
+
+	    //收藏商品
+	    $(".details-btn1").click(function() {
+	    	var bl = /on/g.test($(this).attr("class"));
+	    	if(!bl){
+	    		$(this).addClass("on");
+	    		$(this).html("<i></i> 已收藏");
+	    	}else{
+	    		$(this).removeClass("on");
+	    		$(this).html("<i></i> 收藏商品");
+	    	};
+	    });
+
+			//查看更多评论,模拟数据
+			// var data = [
+			// 	{
+			// 		userImg:"../images/indiana/cy_user_head4.png",//评论用户头像
+			// 		userName:"我是土豪中的战斗壕ohyeah",//评论用户名字
+			// 		time:"2016-12-8",//评论时间
+			// 		commentContent:"180,80kg，衣服真的是超级好看，本人体型偏胖，可惜选的有些大了。快递隔天就到我也不换了，穿着非常有型，满意!!",//评论内容
+			// 		commentImgs:["../images/details/product-img1.png","../images/details/product-img2.png"],//评论上传的商品图片（晒图）
+			// 		score:5//评分，最终
+			//渲染成五角星（5代表5颗星）
+			// 	},
+			// 	{
+			// 		userImg:"../images/indiana/cy_user_head2.png",//评论用户头像
+			// 		userName:"Gress_Jasn",//评论用户名字
+			// 		time:"2016-12-1",//评论时间
+			// 		commentContent:"衣服真的是超级好看，本人体型偏胖，可惜选的有些大了。快递隔天就到我也不换了，穿着非常有型，满意!!",//评论内容
+			// 		commentImgs:["../images/details/product-img1.png","../images/details/product-img2.png"],//评论上传的商品图片（晒图）
+			// 		score:3//评分，最终渲染成五角星（5代表5颗星）
+			// 	},
+			// 	{
+			// 		userImg:"../images/indiana/cy_user_head5.png",//评论用户头像
+			// 		userName:"Jasn",//评论用户名字
+			// 		time:"2016-12-5",//评论时间
+			// 		commentContent:"快递隔天就到我也不换了，穿着非常有型，满意!!",//评论内容
+			// 		commentImgs:["../images/details/product-img1.png"],//评论上传的商品图片（晒图）
+			// 		score:2//评分，最终渲染成五角星（5代表5颗星）
+			// 	},
+			// 	{
+			// 		userImg:"../images/indiana/indiana.png",//评论用户头像
+			// 		userName:"wujiabk",//评论用户名字
+			// 		time:"2016-12-10",//评论时间
+			// 		commentContent:"快递隔天就到我也不换了，穿着非常有型，满意!!",//评论内容
+			// 		commentImgs:["../images/details/product-img2.png"],//评论上传的商品图片（晒图）
+			// 		score:4//评分，最终渲染成五角星（5代表5颗星）
+			// 	}
+			// ];
+
+			$(".commodity-evaluation-more").click(function(){
+				"use strict";
+
+				var _self = $(this);
+				$(".popup-load").fadeIn(200);
+				$(this).text("正在加载 ...");
+
+				var newLi = "";
+				var oI = "";
+				var oImg = "";
+
+				$.ajax({
+					url:"../js/data.json",
+					async:true,
+					type:"GET",
+					dataType:"json",
+					success:function(data){
+						for(var i =0;i<data.commentDate.length;i++){
+							for(var k = 0;k< data.commentDate[i].score;k++){
+								oI += "<i class='fl'></i>";
+							};
+							for(var j =0;j< data.commentDate[i].commentImgs.length;j++){
+								oImg += "<img src="+data.commentDate[i].commentImgs[j]+">";
+							};
+
+							newLi +=
+											"<li>"+
+												"<div class='commodity-evaluation-name clearfix'>"+
+													"<div class='commodity-evaluation-img fl'>"+
+														"<img src="+data.commentDate[i].userImg+">"+
+													"</div>"+
+													"<div class='commodity-evaluation-name-time fl'>"+
+														"<h5>"+data.commentDate[i].userName+"</h5>"+
+														"<div class='commodity-evaluation-time'>"+
+															"<span class='clearfix'>"+oI+"</span>"+
+															"<time>"+data.commentDate[i].time+"</time>"+
+														"</div>"+
+													"</div>"+
+												"</div>"+
+												"<div class='commodity-evaluation-text'>"+
+													data.commentDate[i].commentContent+
+													"<div class='commodity-evaluation-text-img'>"+
+														oImg+
+													"</div>"+
+												"</div>"+
+											"</li>";
+
+											//每一条数据处理完成后，初始化状态
+											oI = "";
+											oImg = "";
+						};
+					},
+					error:function(xhr,textStatus,errorThrown){
+						console.log(errorThrown+" "+xhr.status);
+					}
+				});
+
+				setTimeout(function(){
+					$(".popup-load").fadeOut(200,function(){
+						$(".commodity-evaluation-details").append(newLi);
+						_self.html("查看更多<i class='fm'>&gt;</i>");
+					});
+				},500);
+			});
+    </script>
+</body>
+</html>

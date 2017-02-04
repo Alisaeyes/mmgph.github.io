@@ -1,0 +1,95 @@
+@charset "utf-8";
+.bf5{background: #f5f5f5;}
+/* 最新揭晓 start */
+.latest-announcement,.indiana-list,.participation-record-list{background:#fff;}
+.latest-announcement-title{height: 0.8rem;border-bottom:1px solid #ddd;font-size:0.3rem;line-height:0.85rem;padding:0 0.2rem;}
+.latest-announcement-wrap{overflow-x: auto;padding:0 0.2rem;width: 100%;}
+.latest-announcement-list{margin-left:-0.1rem;margin-top:0.12rem;}
+.latest-announcement-item{float:left;width: 2rem;margin-left:0.1rem;}
+.latest-announcement-img{height: 2.5rem;background:#f2f2f2;width: 100%;}
+.latest-announcement-img img,.latest-announcement-item a,.indiana-list-img img,.participation-record-img img{display:block;width: 100%;height: 100%;}
+.latest-announcement-item p{font-size:0.22rem;line-height:0.35rem;margin-top:0.1rem;width: 1.85rem;height: 0.65rem;}
+.latest-announcement-timer{color:#d51717;padding:0 0.1rem;margin-top:0.15rem;}
+.latest-announcement-timer span{padding:0.03rem 0.1rem;font-size:0.22rem;line-height:0.365rem;text-align:center;display:inline-block;background:#d51717;color:#fff;}
+.latest-announcement-timer b{font-size:0.3rem;font-weight:bold;}
+/* 最新揭晓 end */
+
+/* 列表 start */
+.indiana-tab{width: 100%;height: 0.8rem;line-height:0.8rem;border-bottom:1px solid #ddd;}
+.indiana-tab a{width: 20%;text-align:center;color:#333;font-size:0.3rem;border-bottom:2px solid transparent;}
+.indiana-tab .on{border-bottom:2px solid #d51717;color:#d51717;}
+.indiana-list-item{width: 50%;height: 4.5rem;overflow:hidden;float:left;border-right:1px solid #ddd;border-bottom:1px solid #ddd;}
+.indiana-list-img{width: 100%;height: 3rem;}
+.indiana-list-item a{margin:0 0.2rem;display:block;}
+.indiana-list-item:nth-child(2n){border-right:none;}
+.indiana-list-name{font-size:0.3rem;margin:0.2rem 0;width: 100%;height: 0.35rem;}
+.indiana-btn{margin-bottom:0.25rem;}
+.indiana-kjjd{width: 1.92rem;margin-left:0.2rem;}
+.indiana-kjjd span{font-size:0.2rem;padding-bottom:0.05rem;}
+.indiana-kjjd span b{color:#d51717;}
+.indiana-kjjd .jd{width: 100%;height: 5px;background:#dedede;border-radius: 5px;overflow:hidden;}
+.indiana-kjjd .jd p{height: 100%;background:#fc0001;}
+.ms-btn{display:inline-block;width: 1.4rem;margin-top:0.03rem;}
+.ms-btn input{display:block;width: 1.3rem;margin-left:0.2rem;height: 0.5rem;font-size:0.22rem;background:transparent;border:1px solid #ff6600;color:#ff6600;border-radius:3px;}
+/* 列表 end */
+
+/* 所有参与列表 start */
+.participation-record-list-item{padding:0.25rem;border-bottom:1px solid #ddd;}
+.participation-record-img{width: 1.2rem;height: 1.2rem;border-radius:50%;}
+.participation-record-details{margin-left:0.25rem;}
+.participation-record-details p{font-size:0.3rem;color:#e3241a;margin-top: 0.16rem;}
+.participation-record-time{font-size:0.25rem;color:#999;margin-top:0.1rem;}
+.participation-record-time b{color:#5ca6fb;}
+.participation-record-time span{padding-right: 0.3rem;}
+/* 所有参与列表 end */
+
+/*一分夺宝详情 开始*/
+.sec-indiana{margin-top: 0.86rem;margin-bottom: 1.5rem;}
+div.indiana-banner img{height: auto;}
+.detials-processing{padding:0.3rem 0.2rem;}
+.detials-processing>h2{font-size: 0.3rem;color:#333;}
+.detials-processing>h2 span{background-color: #c10e0e;color:#fff;padding:0.06rem 0.2rem 0.1rem;margin-right: 0.05rem;}
+.progress-bar{margin-top: 0.3rem;height: 0.12rem;width: 100%;background-color: #dedede;}
+.bar-percent{background-color: #f23030;width: 40%;height: 100%;}
+.process-list{margin-top: 0.2rem;}
+.process-list li{float: left;width: 33.3%;}
+.process-list li h2{display: inline-block;font-size: 0.3rem;}
+.process-list li b,.process-list li span,.process-list li i{display: block;text-align: center;}
+.process-list li b{color:#f23030;}
+.process-list li span{color:#888;}
+.process-list li i{color:#81caff;}
+.process-list li p{margin-top: 0.1rem;color:#888;}
+.process-list li.process-alignc{text-align: center;}
+.process-list li.process-alignr{text-align: right;}
+.part-indiana{padding:0.2rem;}
+.part-indiana h2{background-color: #d6d6d6;color:#fff;font-size: 0.3rem;text-align: center;height:0.7rem;line-height: 0.72rem;}
+.indiana-mtop{margin-top: 0.15rem;}
+.indiana-details-list li{height: 0.8rem;line-height:0.82rem;border-bottom: 1px solid #ddd;font-size: 0.3rem;padding:0 0.2rem;position: relative;}
+.indiana-details-list li a{display: block;}
+.indiana-details-list li p{text-indent:0.15rem;padding-left: 0.3rem;background-position: left center;background-repeat: no-repeat;background-size: 0.34rem 0.4rem;line-height: normal;display: inline-block;}
+.record-details{background-image:url(../images/indiana/all-record.png);}
+.photo-details{background-image: url(../images/indiana/photo-details.png);}
+.indiana-details-list li span{min-width: 0.14rem;position: absolute;right: 0.2rem;display: inline-block;padding-right: 0.2rem;background: url(../images/my/myright-arrow.png) right center no-repeat;background-size: 0.14rem 0.24rem;height: 100%;}
+li.indiana-last-li{border-bottom: none;}
+.indiana-success{padding-bottom: 0.2rem;}
+.indiana-success h2{line-height: 0.75rem;font-size: 0.28rem;border-bottom: 1px solid #ddd;padding:0 0.2rem;}
+.success-user{padding:0.2rem;height: 1.4rem;}
+.success-user img{float: left;border-radius: 50%;width: 1.2rem;height: 1.2rem;margin-right: 0.2rem;}
+.success-user span{font-size: 0.26rem;color:#f23030;padding-top:0.15rem;}
+.success-user p{font-size: 0.24rem;color:#888;margin-top: 0.1rem;}
+.success-user p b{margin-right: 0.2rem;}
+.indiana-immediately{position: absolute;bottom: 0;width: 100%;border-top: 1px solid #ddd;line-height: 1rem;padding-left:0.4rem;font-size: 0.3rem;color:#333;}
+.indiana-immediately .num-control{vertical-align: middle;border:none;}
+.indiana-immediately .num-control{margin-left: 0.3rem;}
+.indiana-immediately .num-control .add-sub{border:none;width:0.5rem;height: 0.5rem;line-height: 0.5rem;background-color: #f2f2f2; font-size: 0.45rem;}
+.indiana-immediately .num-control .num-box{background-color: #f2f2f2;margin:0 0.1rem;border:1px solid #ddd;width: 0.85rem;font-size: 0.28rem;}
+/*一分夺宝详情 结束*/
+
+/*图文详情 开始*/
+.indiana-photo-box img{max-width: 100%;min-width: 100%;}
+.photo-title{color:#222;font-size: 0.3rem;letter-spacing: 1px;text-align: center;margin-top: 0.2rem;}
+.indiana-txt1{text-align: center;font-size: 0.25rem;color:#333;line-height: 0.4rem;padding:0 0.3rem;margin-top: 0.3rem;}
+.img-mtop1{margin: 0.7rem 0 0.5rem;}
+.img-mtop2{margin:0.5rem 0.3rem;}
+.indiana-imgbox{text-align: center;}
+/*图文详情 结束*/
